@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300,500&display=swap');
+
+* {
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	margin: 0;
+	font: 16px/27px 'Playfair Display', serif;
+	color: #797979;
+	background-color: #ffffff;
+}
+
+.footerList,
+.subscribe,
+.team,
+.wrapper {
+	width: 1200px;
+	padding: 0 25px;
+	margin: auto;
+}
+
+.header {
+	box-shadow: 0 0 10px #548cf3;
+}
+
+.logo {
+	margin-right: 150px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0; 
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	font-size: 18px;
+	line-height: 30px;
+	color: #3c3c3c;
+	text-decoration: none;
+	padding: 30px;
+	display: inline-block;
+}
+
+.menu a:hover {
+	background-color: #c4d8fd;
+}
+
+.social {
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+.social li {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.social li:first-child {
+	margin-left: 0;
+}
+
+.social a {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: 2px solid #c4d8fd;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+}
+
+.social a:hover {
+	background-color: #c4d8fd;
+}
+
+.logo,
+.nav,
+.social {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.breadcrumbs {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	font: 14px/30px 'Raleway', sans-serif;
+}
+
+.breadcrumbs li:not(:first-child) {
+	margin-left: 7px;
+}
+
+.breadcrumbs a {
+	color: #e2574c;
+	text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+	text-decoration: underline;
+}
+
+.breadcrumbs a::after {
+	content: '\2192';
+	color: #797979;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 7px;
+}
+
+.breadcrumbs span {
+	font-weight: bold;
+}
+
+.title {
+	font: 45px/50px 'Raleway', sans-serif;
+	color: #3c3c3c;
+	margin: 0 0 50px;
+}
+
+.title span {
+	font-weight: 300;
+}
+
+.clearfix::after, {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.about img {
+	float: left;
+	margin-right: 28px;
+}
+
+.feature{
+	margin: 0;
+	padding: 0;
+	background-color: #f6f6f6;
+}
+
+.feature ul{
+	width: 1200px;
+	margin: auto;
+	padding: 0px 25px;
+	height: 375px;
+}
+
+.feature li{
+	vertical-align: middle;
+	display: inline-block;
+	width: 265px;
+	text-align: center;
+	padding: 0px 15px;
+}
+
+.feature li:not(:first-child){
+	margin-left: 29px;
+}
+
+.feature h2{
+	font-size: 20px;
+	line-height: 50px;
+	color: #3c3c3c;
+	font-family: "Raleway";
+	font-weight: 500;
+	margin: 120px 0px 10px 0px;
+}
+
+.feature p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #797979;
+	font-weight: 400;
+}
+
+.feature li:nth-of-type(1){
+	background-image: url(images/earth.png);
+	background-repeat: no-repeat;
+	background-position: center 30%;
+}
+
+.feature li:nth-of-type(2){
+	background-image: url(images/briefcase.png);
+	background-repeat: no-repeat;
+	background-position: center 30%;
+}
+
+.feature li:nth-of-type(3){
+	background-image: url(images/photos.png);
+	background-repeat: no-repeat;
+	background-position: center 30%;
+}
+
+.feature li:nth-of-type(4){
+	background-image: url(images/file-drawer.png);
+	background-repeat: no-repeat;
+	background-position: center 30%;
+}
+
+
+
+.team h2{
+	font-size: 37px;
+	line-height: 65px;
+	color: #242424;
+	font-family: "Raleway";
+	margin: 0;
+}
+
+.team a {
+	float: right;
+	font-size: 20px;
+	line-height: 65px;
+	color: #e2574c;
+	font-weight: 400;
+}
+
+.team a,
+.team h2{
+	padding: 90px 0px 50px 0px;
+}
+
+.team ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.team li{
+	display: inline-block;
+	width: 265px;
+	height: 395px;
+	border-bottom: 2px solid #f6f6f6;
+	border-width: thin;
+}
+
+.team span {
+	font-weight: 300;
+}
+
+.team .img{
+	height: 293px;
+}
+
+.team h3{
+	font-size: 20px;
+	line-height: 65px;
+	font-family: "Raleway";
+	font-weight: 500;
+	text-align: center;
+	margin: 0px;
+	color: #000000;
+}
+
+.team p{
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #797979;
+	font-weight: 400;
+	text-align: center;
+	margin:-15px 0px 0px 0px;
+}
+
+.team li:not(:first-child){
+	margin-left: 29px;
+}
+
+
+
+.subscribeBG {
+	margin: 100px 0 0 0;
+	padding: 0;
+	background-color: #f6f6f6;
+}
+
+.subscribe h2{
+	font-size: 37px;
+	line-height: 50px;
+	color: #3c3c3c;
+	font-family: "Raleway";
+}
+
+.subscribe span{
+	font-weight: 300;
+}
+
+
+.subscribe h2{
+	margin: 50px 0px;
+}
+
+
+.subscribe h2,
+.subscribe form{
+	display: inline-block;
+	margin: 0
+	vertical-align: middle;
+
+}
+
+.subscribe form{
+	margin: 45px 0px 40px 0px;
+}
+
+.subscribe form{
+	float: right;
+}
+
+.subscribe input{
+	width: 387px;
+	height: 58px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	border: 2px solid #e6e6e6;
+	font-size: 18px;
+	line-height: 60px;
+	color: #c2c1c1;
+	font-family: "Raleway";
+	padding-left: 20px;
+}
+
+.subscribe button{
+	width: 153px;
+	height: 60px;
+    background-color: #e2574c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+footer {
+	background-color: #303030;
+	margin: 0;
+	padding: 0;
+}
+
+.cell > li{
+	width: 265px;
+	height: 383px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cell img{
+	color: #acacac;
+}
+
+.cell{
+	margin: 0;
+	padding: 0;
+}
+
+.cell > li:not(:first-child){
+	margin-left: 29px;
+}
+
+.cell > li:first-child {
+	padding-top: 80px;
+}
+
+.cell .social{
+	margin: 10px 0px 0px 0px;
+}
+
+.cell h2{
+	font-size: 28px;
+	line-height: 50px;
+	color: #ffffff;
+	font-family: "Raleway";
+	font-weight: 300;
+	padding: 75px 0px 20px 0px;
+	margin: 0;
+}
+
+li ul{
+	padding: 0;
+}
+
+
+.cell a {
+	font-size: 15px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cell .link {
+	font-size: 15px;
+	line-height: 23px;
+	color: #e2574c;
+	text-decoration: underline;
+}
+
+.contact p {
+	margin: 0;
+
+}
+
+.contact li:not(:first-child) {
+	margin-top: -10px;
+}
+
+.contact p,
+.contact li {
+	font-size: 15px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.contact li {
+	margin-bottom: -10px;
+}
+
+.contact ul {
+	margin-bottom: 18px;
+}
